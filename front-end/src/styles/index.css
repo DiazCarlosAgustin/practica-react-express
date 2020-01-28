@@ -1,0 +1,56 @@
+.container{
+    height: 100%;
+    width: 100%;
+    min-height: 90vh;
+}
+body{
+    background-color: #F8B4C1;
+    margin: 0 0;
+}
+.center1{
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: 5vh;
+    height: 90vh;
+}
+.ancla,.timon{
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.timon{
+    width: 180px;
+    color: #E75A5F;
+    margin-left: -90px;
+    animation: timon 1.5s infinite;
+}
+.ancla{
+    width: 300px;
+    color: #EE778A  ;
+}
+.links{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.a-link{
+    font-size:36px ;
+    color:#E75A5F;
+}
+.a-link:hover{
+    text-decoration: none;
+    color: #E75A5F;
+}
+
+@keyframes timon{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
