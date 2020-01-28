@@ -1,0 +1,23 @@
+{
+  "name": "curos-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2"
+  }
+}
